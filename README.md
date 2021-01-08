@@ -4,7 +4,7 @@ Downloads random images from https://prnt.sc/
 
 ![](https://raw.githubusercontent.com/ZippyDoodah123/PrntScDownloader/main/images/image.png)
 
-##Usage
+## Usage
 Clone or download. 
 Then run:
 ```
