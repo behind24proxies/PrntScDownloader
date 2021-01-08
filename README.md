@@ -4,10 +4,12 @@ Downloads random images from https://prnt.sc/
 
 ![](https://raw.githubusercontent.com/ZippyDoodah123/PrntScDownloader/main/images/image.png)
 
-## Usage
-Clone or download. 
-Then run:
+## Installation and usage
+
 ```
+git clone https://github.com/ZippyDoodah123/PrntScDownloader
+cd PrntScDownloader-main
+pip3 install -r requirements.txt 
 python3 main.py
 ```
 
