@@ -21,12 +21,10 @@ def main():
             url = img['src']
             if url == removedUrl:
                 print("This screenshot has been removed...")
-                main()
             else:
                 r = requests.head(url, allow_redirects=True)
                 if r.url.split("/")[-1] == "removed.png":
                     print("This screenshot has been removed...")
-                    main()
                 try:
                     with requests.get(url, stream=True) as r:
                         if r.status_code == 200:
@@ -38,7 +36,6 @@ def main():
                     print("Downloaded: " + url)
                 except Exception as e:
                     print("Error downloading url: " + url + "\nDue to error: " + str(e))
-
 
 
 if __name__ == "__main__":
